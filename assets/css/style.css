@@ -58,8 +58,11 @@ header {
     display: inline;
   }
   footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background: #fce138;
-    width: 100%;
+    width: auto;
     padding: 40px 35px;
   }
 /* Hero Style Start */

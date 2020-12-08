@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
   }
+
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
@@ -10,10 +11,16 @@ body {
 h2 {
   padding: 30px;
 }
-  header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
   header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -26,8 +33,7 @@ h2 {
     color: #fce138;
   }
   header nav {
-    float: right;
-    margin: 0px 0;
+    margin: 7px 0;
   }
   header nav ul li {
     display: inline;
@@ -225,3 +231,4 @@ h2 {
 .contact-info a {
   color: #fce138;
 }
+
